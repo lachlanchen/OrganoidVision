@@ -1,0 +1,12 @@
+.DS_Store
+
+# LaTeX build artifacts
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+
+# Local prompt execution outputs
+*.response.jsonl

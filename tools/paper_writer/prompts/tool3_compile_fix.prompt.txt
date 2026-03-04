@@ -1,0 +1,16 @@
+Task: Fix LaTeX compile errors in place.
+
+Inputs:
+- Manuscript: /Users/lachlanchen/Documents/iProjects/OrganoidSensor/paper/nature_submission/main.tex
+- Compile log: /Users/lachlanchen/Documents/iProjects/OrganoidSensor/paper/nature_submission/main.compile.log
+
+Requirements:
+- Edit only /Users/lachlanchen/Documents/iProjects/OrganoidSensor/paper/nature_submission/main.tex.
+- Resolve compile errors while preserving scientific content and structure.
+- Keep figure includes and section headings intact.
+- Prefer minimal, safe fixes (package issues, escaping, equation syntax, bibliography syntax, bad references).
+- Maintain pdflatex compatibility.
+
+Execution requirements:
+- Save the fixed LaTeX directly to /Users/lachlanchen/Documents/iProjects/OrganoidSensor/paper/nature_submission/main.tex.
+- Final response must be exactly: WROTE /Users/lachlanchen/Documents/iProjects/OrganoidSensor/paper/nature_submission/main.tex

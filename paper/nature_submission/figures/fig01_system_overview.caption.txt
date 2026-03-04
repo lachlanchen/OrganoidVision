@@ -1,0 +1,1 @@
+System-level schematic spanning optical stimulus delivery, organoid transduction, bioelectronic readout, and neuromorphic decoder outputs.

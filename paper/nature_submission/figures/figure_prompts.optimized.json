@@ -1,0 +1,58 @@
+{
+  "figures": [
+    {
+      "order": 1,
+      "id": "fig01",
+      "filename": "fig01_system_overview.png",
+      "title": "Bio-Hybrid Vision System Overview",
+      "caption": "System-level schematic spanning optical stimulus delivery, organoid transduction, bioelectronic readout, and neuromorphic decoder outputs.",
+      "aspect_ratio": "16:9",
+      "prompt": "GRS AI Nano Banana, create an ultra-clean isometric systems diagram showing a sequential left-to-right flow from collimated optical stimulus projectors to retinal organoid bioreactors, liquid-metal 3D MEA scaffold, microfluidic perfusion manifold, neuromorphic decoding hardware, and robotics actuators; use translucent guidance arrows, layered depth with atmospheric perspective, crisp edges, white background, Nature-style palette of teal, amber, and charcoal accents, soft volumetric lighting, 8k detail, no text, numbers, or axis labels."
+    },
+    {
+      "order": 2,
+      "id": "fig02",
+      "filename": "fig02_retinal_organoid_morphogenesis.png",
+      "title": "Retinal Organoid Morphogenesis",
+      "caption": "Developmental timeline showing layered retinal organoid maturation, IGF1-PHLDA1 photoreceptor bias, and effects of biphasic electrical and photic conditioning.",
+      "aspect_ratio": "4:3",
+      "prompt": "GRS AI Nano Banana, render a multi-panel developmental timeline of retinal organoids progressing from early spheroids to laminated tissues with elongated photoreceptor outer segments; include layered cross-sections highlighting photoreceptor, bipolar, and ganglion strata, subtle glowing gradients representing IGF1-PHLDA1 signaling, and overlays of biphasic electrical stimulation electrodes plus photic conditioning beams; arrange stages chronologically with delicate arrows and semi-transparent overlays, white background, saffron and indigo accents, cinematic depth of field, no text, numbers, or axis ticks."
+    },
+    {
+      "order": 3,
+      "id": "fig03",
+      "filename": "fig03_biointerface_mea_microfluidic.png",
+      "title": "Biointerface Hardware",
+      "caption": "Cutaway of the integrated 3D MEA, conformal electrodes, and microfluidic perfusion stack enabling stable long-term recording.",
+      "aspect_ratio": "16:9",
+      "prompt": "GRS AI Nano Banana, produce an exploded cutaway of the biointerface hardware showing a retinal organoid cradled by conformal liquid-metal helices, transparent hydrogel scaffold, vertically stacked microfluidic channels with perfusion streams, embedded electrochemical telemetry chips, and external connectors; emphasize refined material textures, semi-transparent layers, floating component spacing, white laboratory background, cool teal and copper palette with high contrast, ray-traced lighting, no text or numeric markings."
+    },
+    {
+      "order": 4,
+      "id": "fig04",
+      "filename": "fig04_event_coding_pipeline.png",
+      "title": "Event-Based Coding Pipeline",
+      "caption": "Pipeline converting organoid electrophysiology into asynchronous event streams, neuromorphic decoding, and recognition outputs.",
+      "aspect_ratio": "16:9",
+      "prompt": "GRS AI Nano Banana, illustrate four sequential panels that morph from raw voltage traces to thresholded spikes, then to neuromorphic spike maps propagating through a translucent 3D lattice, and finally to reconstructed motion silhouettes; use glowing pulses, particle trails, depth-wise layering, and diagonal light beams to imply temporal flow, keep the canvas white with teal and magenta highlights, ultra-fine detail, no text, numbers, or axes."
+    },
+    {
+      "order": 5,
+      "id": "fig05",
+      "filename": "fig05_quality_control_monitoring.png",
+      "title": "Longitudinal Quality Control",
+      "caption": "Multimodal QC dashboard concept combining oxygen, pH, impedance, SNR, and drift indicators over time.",
+      "aspect_ratio": "4:3",
+      "prompt": "GRS AI Nano Banana, design a minimalist multimodal quality-control dashboard with floating translucent cards that show unlabeled oxygen saturation curves, pH heatmaps, impedance spider plots, SNR histograms, and drift timelines; use layered glassmorphism panels, subtle drop shadows for depth, white background, aqua, coral, gold, and slate accents, precision data aesthetics, no text, numbers, or tick marks."
+    },
+    {
+      "order": 6,
+      "id": "fig06",
+      "filename": "fig06_ethics_and_deployment_framework.png",
+      "title": "Ethics and Deployment",
+      "caption": "Governance framework linking organoid maturity state, stimulation limits, oversight checkpoints, and deployment boundaries.",
+      "aspect_ratio": "4:3",
+      "prompt": "GRS AI Nano Banana, visualize an ethics and deployment framework as concentric rings with radial gateways: inner ring for organoid maturity states, middle ring for stimulation limits, outer ring for oversight and deployment zones connected by luminous pathways and gate-like icons; ensure crisp symmetry, soft glow gradients, white background, muted emerald and copper palette, volumetric lighting, high resolution, no text, numbers, or labels."
+    }
+  ]
+}

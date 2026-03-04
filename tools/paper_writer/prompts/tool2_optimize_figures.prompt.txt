@@ -1,0 +1,38 @@
+Task: Optimize scientific figure prompts for publication-quality generation.
+
+Inputs:
+- Seed figure plan JSON: /Users/lachlanchen/Documents/iProjects/OrganoidSensor/paper/nature_submission/figures/figure_plan.seed.json
+- Manuscript context: /Users/lachlanchen/Documents/iProjects/OrganoidSensor/paper/nature_submission/main.tex
+
+Write optimized JSON directly to:
+/Users/lachlanchen/Documents/iProjects/OrganoidSensor/paper/nature_submission/figures/figure_prompts.optimized.json
+
+Rules:
+- Preserve exactly 6 figures and preserve filename/order/id values.
+- Keep caption text, but improve wording if needed for clarity.
+- For each figure, output a detailed image-generation prompt for GRS AI Nano Banana.
+- Prompts must be precise, visually rich, and scientific.
+- No text rendered inside images (no axis labels, no titles, no numbers, no letters).
+- Use clean Nature-style color palette, high contrast, white/light backgrounds.
+- Avoid messy decorative elements.
+- Each prompt should include composition cues, depth/layering cues, and quality constraints.
+- Ensure aspect ratios remain valid: auto, 1:1, 16:9, 9:16, 4:3, 3:4, 3:2, 2:3, 5:4, 4:5, 21:9.
+
+Output schema:
+{
+  "figures": [
+    {
+      "order": 1,
+      "id": "fig01",
+      "filename": "fig01_system_overview.png",
+      "title": "...",
+      "caption": "...",
+      "aspect_ratio": "16:9",
+      "prompt": "..."
+    }
+  ]
+}
+
+Execution requirements:
+- Write UTF-8 JSON to the output path.
+- Final response must be exactly: WROTE /Users/lachlanchen/Documents/iProjects/OrganoidSensor/paper/nature_submission/figures/figure_prompts.optimized.json

@@ -1,0 +1,1 @@
+Multimodal QC dashboard concept combining oxygen, pH, impedance, SNR, and drift indicators over time.

@@ -1,0 +1,1 @@
+Governance framework linking organoid maturity state, stimulation limits, oversight checkpoints, and deployment boundaries.

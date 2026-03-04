@@ -1,0 +1,52 @@
+{
+  "figures": [
+    {
+      "order": 1,
+      "id": "fig01",
+      "filename": "fig01_system_overview.png",
+      "title": "Bio-Hybrid Vision System Overview",
+      "caption": "System-level schematic from optical stimulus input to organoid transduction, bioelectronic readout, and machine decoder output.",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "order": 2,
+      "id": "fig02",
+      "filename": "fig02_retinal_organoid_morphogenesis.png",
+      "title": "Retinal Organoid Morphogenesis",
+      "caption": "Developmental timeline and laminar organization of retinal organoids, highlighting photoreceptor and ganglion-cell output constraints.",
+      "aspect_ratio": "4:3"
+    },
+    {
+      "order": 3,
+      "id": "fig03",
+      "filename": "fig03_biointerface_mea_microfluidic.png",
+      "title": "Biointerface Hardware",
+      "caption": "Integrated interface showing 3D MEA, conformal electrodes, and microfluidic perfusion for stable long-term recording.",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "order": 4,
+      "id": "fig04",
+      "filename": "fig04_event_coding_pipeline.png",
+      "title": "Event-Based Coding Pipeline",
+      "caption": "Pipeline converting organoid electrophysiology into asynchronous event streams and decoding outputs for recognition tasks.",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "order": 5,
+      "id": "fig05",
+      "filename": "fig05_quality_control_monitoring.png",
+      "title": "Longitudinal Quality Control",
+      "caption": "Multimodal QC dashboard concept combining oxygen, pH, impedance, SNR, and drift indicators over time.",
+      "aspect_ratio": "4:3"
+    },
+    {
+      "order": 6,
+      "id": "fig06",
+      "filename": "fig06_ethics_and_deployment_framework.png",
+      "title": "Ethics and Deployment",
+      "caption": "Governance framework linking maturity state, stimulation limits, oversight checkpoints, and deployment boundaries.",
+      "aspect_ratio": "4:3"
+    }
+  ]
+}

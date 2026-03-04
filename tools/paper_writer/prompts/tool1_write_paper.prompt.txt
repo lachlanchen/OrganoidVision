@@ -1,0 +1,33 @@
+Task: Write a complete, submission-ready Nature-style research manuscript in LaTeX.
+
+Source materials:
+- /Users/lachlanchen/Documents/iProjects/OrganoidSensor/references/organoid-image-sensor-research.md
+- /Users/lachlanchen/Documents/iProjects/OrganoidSensor/references/organoid-sensor-stack-and-blueprints.md
+- /Users/lachlanchen/Documents/iProjects/OrganoidSensor/references/bio-hybrid-vision-systems.md
+
+Write the LaTeX file directly to:
+/Users/lachlanchen/Documents/iProjects/OrganoidSensor/paper/nature_submission/main.tex
+
+Hard requirements:
+- Use a LaTeX format that compiles with pdflatex/latexmk without external classes.
+- Title: Bio-Hybrid Vision Systems: Engineering Retinal Organoids as Advanced Imaging Sensors
+- Authors: Rongzhou Chen, Shaohua Ma
+- Include: Abstract, Introduction, Results, Discussion, Methods, Conclusion, Ethics Statement, Data Availability, Code Availability.
+- Integrate core ideas from ALL three source files.
+- Keep claims technical and plausible; avoid speculative overstatement.
+- Include a concise equation set for event-based coding/decoding metrics.
+- Use Nature-like professional tone and structure.
+- Add 6 figure environments with these exact filenames:
+  1) figures/fig01_system_overview.png
+  2) figures/fig02_retinal_organoid_morphogenesis.png
+  3) figures/fig03_biointerface_mea_microfluidic.png
+  4) figures/fig04_event_coding_pipeline.png
+  5) figures/fig05_quality_control_monitoring.png
+  6) figures/fig06_ethics_and_deployment_framework.png
+- Each figure must include an informative caption.
+- Use numeric references and include a compact \begin{thebibliography} block.
+- Ensure no TODO placeholders remain.
+
+Execution requirements:
+- Write UTF-8 text directly to the target file.
+- Final response must be exactly: WROTE /Users/lachlanchen/Documents/iProjects/OrganoidSensor/paper/nature_submission/main.tex
