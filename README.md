@@ -7,11 +7,11 @@
 [![Project](https://img.shields.io/badge/project-OrganoidVision-3a6b8c)](https://ideas.onlyideas.art)
 [![Lab](https://img.shields.io/badge/lab-AgInTi%20Lab-black)](https://ideas.onlyideas.art)
 [![Company](https://img.shields.io/badge/company-LazyingArt%20LLC-555555)](https://ideas.onlyideas.art)
-[![Companion](https://img.shields.io/badge/companion-OrganoidIntelligence-blue)](https://github.com/lachlanchen/intelligence)
+[![Companion](https://img.shields.io/badge/companion-OrganoidIntelligence-blue)](https://github.com/lachlanchen/OrganoidIntelligence)
 
 **Website:** [ideas.onlyideas.art](https://ideas.onlyideas.art)  
 **GitHub:** [github.com/lachlanchen/OrganoidVision](https://github.com/lachlanchen/OrganoidVision)  
-**Companion:** [OrganoidIntelligence](https://github.com/lachlanchen/intelligence)
+**Companion:** [OrganoidIntelligence](https://github.com/lachlanchen/OrganoidIntelligence)
 
 </div>
 
@@ -54,7 +54,7 @@ The project treats retinal organoids as a biological front-end for visual sensin
 
 ## Relationship to OrganoidIntelligence
 
-[OrganoidIntelligence](https://github.com/lachlanchen/intelligence) is the broad roadmap for organoid brain-on-chip intelligence, wetware computing, MEA interfaces, and closed-loop stimulation.
+[OrganoidIntelligence](https://github.com/lachlanchen/OrganoidIntelligence) is the broad roadmap for organoid brain-on-chip intelligence, wetware computing, MEA interfaces, and closed-loop stimulation.
 
 OrganoidVision is the application branch: retinal organoids, optical input, living sensors, and event-based biohybrid vision.
 
@@ -81,7 +81,7 @@ For the companion roadmap:
   author       = {Chen, Lachlan and AgInTiFlow},
   year         = {2026},
   institution  = {AgInTi Lab, LazyingArt LLC},
-  howpublished = {\url{https://github.com/lachlanchen/intelligence}},
+  howpublished = {\url{https://github.com/lachlanchen/OrganoidIntelligence}},
   note         = {Research roadmap and repository}
 }
 ```
