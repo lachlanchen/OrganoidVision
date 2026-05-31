@@ -2,7 +2,32 @@
 \usepackage[margin=1in]{geometry}
 \usepackage{graphicx}
 \usepackage{amsmath}
-\usepackage{siunitx}
+\providecommand{\SI}[2]{#1\,#2}
+\providecommand{\SIrange}[3]{#1--#2\,#3}
+\providecommand{\si}[1]{#1}
+\providecommand{\milli}{m}
+\providecommand{\micro}{\ensuremath{\mu}}
+\providecommand{\nano}{n}
+\providecommand{\pico}{p}
+\providecommand{\kilo}{k}
+\providecommand{\watt}{W}
+\providecommand{\volt}{V}
+\providecommand{\hertz}{Hz}
+\providecommand{\ohm}{\ensuremath{\Omega}}
+\providecommand{\pascal}{Pa}
+\providecommand{\liter}{L}
+\providecommand{\meter}{m}
+\providecommand{\centi}{c}
+\providecommand{\gram}{g}
+\providecommand{\coulomb}{C}
+\providecommand{\second}{s}
+\providecommand{\hour}{h}
+\providecommand{\day}{d}
+\renewcommand{\day}{d}
+\providecommand{\percent}{\%}
+\providecommand{\decibel}{dB}
+\providecommand{\per}{/}
+\providecommand{\square}{\ensuremath{^2}}
 \usepackage{authblk}
 \usepackage{setspace}
 \usepackage{caption}
@@ -12,9 +37,9 @@
 \setlength{\parindent}{0pt}
 
 \title{Bio-Hybrid Vision Systems: Engineering Retinal Organoids as Advanced Imaging Sensors}
-\author[1]{Rongzhou Chen}
-\author[1]{Shaohua Ma}
-\affil[1]{Organoid Sensor Laboratory, Organoid Intelligence Research Collective, United States}
+\author[1]{Lachlan Chen}
+\author[1]{AgintiFlow}
+\affil[1]{Aginti Lab, LazyingArt LLC}
 \date{}
 
 \begin{document}
@@ -95,7 +120,7 @@ The presented bio-hybrid vision platform demonstrates that retinal organoids can
 
 \textbf{Interface fabrication.} Liquid-metal MEAs were fabricated by injecting eutectic gallium–indium into lithographically defined elastomer channels, then magnetically reshaped to wrap organoids prior to encapsulation within collagen-PEG hydrogels. Microfluidic layers with pneumatic valves modulated perfusion and gas exchange.\cite{liquidMEA2024,organoidchip2019}
 
-\textbf{Optogenetics and stimulation.} AAV2.NN vectors encoding ChrimsonR or Jaws were delivered via microinjection. MicroLED projectors delivered structured light stimuli between \SIrange{420}{630}{\nano\meter}. Electrical stimulation used charge-balanced pulses with \SI{0.2}{\milli\coulomb\per\centi\meter^2} limits.
+\textbf{Optogenetics and stimulation.} AAV2.NN vectors encoding ChrimsonR or Jaws were delivered via microinjection. MicroLED projectors delivered structured light stimuli between \SIrange{420}{630}{\nano\meter}. Electrical stimulation used charge-balanced pulses with \SI{0.2}{\milli\coulomb\per\centi\meter\square} limits.
 
 \textbf{Signal processing.} Raw MEA traces (\SI{20}{\kilo\hertz} sampling) underwent artifact rejection, derivative-based event detection (Equations 1--3), refractory enforcement at \SI{2}{\milli\second}, and spike sorting with adaptive template matching. Spiking neural networks trained via surrogate gradients decoded trajectories, while mutual information and spike-time tiling coefficients quantified channel coordination.\cite{eventImaging2025}
 
